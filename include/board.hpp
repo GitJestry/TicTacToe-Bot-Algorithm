@@ -1,14 +1,22 @@
 #include <array>
 #include <string>
+#include <player.hpp>
 
 namespace TicTacToe {
 
   class Board {
     public:
-      Board(std::string b = "X", std::string s = "O") : begin_symbol_(b), second_symbol_(s) {}
+      Board() {
+        for (int i = 0; i < 3; ++i) {
+            for (int j = 0; j < 3; ++j) {
+                field_[i][j] = Player::None;
+            }
+        }
+      }
 
-      void makeMove(int position);
-      void draw();
+      void makeMove(int row, int col, Player player);
+      void print();
+      Player checkWin();
 
     private:
     /* 1 2 3
@@ -19,9 +27,7 @@ namespace TicTacToe {
        0 = O
        -1 = Empty
     */
-      std::array<int, 9> field_ {-1};
-      std::string begin_symbol_, second_symbol_;
-      int player_turn = 1;
+      Player field_[3][3];
   };
 
 }
