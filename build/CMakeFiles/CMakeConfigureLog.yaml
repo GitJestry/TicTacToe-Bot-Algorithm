@@ -1,0 +1,461 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild-Version 17.9.5+33de0b227 für .NET Framework
+      Der Buildvorgang wurde am 24.05.2024 21:25:40 gestartet.
+      
+      Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+        Das Verzeichnis "Debug\\CompilerIdC.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird gelöscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgeführt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:01.00
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild-Version 17.9.5+33de0b227 für .NET Framework
+      Der Buildvorgang wurde am 24.05.2024 21:25:41 gestartet.
+      
+      Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+        Das Verzeichnis "Debug\\CompilerIdCXX.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird gelöscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgeführt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:00.61
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-0xp5tu"
+      binary: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-0xp5tu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-0xp5tu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_555bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild-Version 17.9.5+33de0b227 für .NET Framework
+        Der Buildvorgang wurde am 24.05.2024 21:25:42 gestartet.
+        
+        Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xp5tu\\cmTC_555bf.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_555bf.dir\\Debug\\" wird erstellt.
+          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+          Das Verzeichnis "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xp5tu\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_555bf.dir\\Debug\\cmTC_555bf.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_555bf.dir\\Debug\\cmTC_555bf.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_555bf.dir\\Debug\\cmTC_555bf.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_555bf.dir\\Debug\\\\" /Fd"cmTC_555bf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\julia\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.39.33520 für x64
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_555bf.dir\\Debug\\\\" /Fd"cmTC_555bf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\julia\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xp5tu\\Debug\\cmTC_555bf.exe" /INCREMENTAL /ILK:"cmTC_555bf.dir\\Debug\\cmTC_555bf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-0xp5tu/Debug/cmTC_555bf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-0xp5tu/Debug/cmTC_555bf.lib" /MACHINE:X64  /machine:x64 cmTC_555bf.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_555bf.vcxproj -> C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xp5tu\\Debug\\cmTC_555bf.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_555bf.dir\\Debug\\cmTC_555bf.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_555bf.dir\\Debug\\cmTC_555bf.tlog\\cmTC_555bf.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xp5tu\\cmTC_555bf.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgeführt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.61
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33520.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-fdqc3u"
+      binary: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-fdqc3u"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-fdqc3u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_58724.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild-Version 17.9.5+33de0b227 für .NET Framework
+        Der Buildvorgang wurde am 24.05.2024 21:25:43 gestartet.
+        
+        Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fdqc3u\\cmTC_58724.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_58724.dir\\Debug\\" wird erstellt.
+          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+          Das Verzeichnis "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fdqc3u\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_58724.dir\\Debug\\cmTC_58724.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_58724.dir\\Debug\\cmTC_58724.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_58724.dir\\Debug\\cmTC_58724.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_58724.dir\\Debug\\\\" /Fd"cmTC_58724.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\julia\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.39.33520 für x64
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_58724.dir\\Debug\\\\" /Fd"cmTC_58724.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\julia\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fdqc3u\\Debug\\cmTC_58724.exe" /INCREMENTAL /ILK:"cmTC_58724.dir\\Debug\\cmTC_58724.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-fdqc3u/Debug/cmTC_58724.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-fdqc3u/Debug/cmTC_58724.lib" /MACHINE:X64  /machine:x64 cmTC_58724.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_58724.vcxproj -> C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fdqc3u\\Debug\\cmTC_58724.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_58724.dir\\Debug\\cmTC_58724.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_58724.dir\\Debug\\cmTC_58724.tlog\\cmTC_58724.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fdqc3u\\cmTC_58724.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgeführt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33520.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-nyn58w"
+      binary: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-nyn58w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-nyn58w'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_593b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild-Version 17.9.5+33de0b227 für .NET Framework
+        Der Buildvorgang wurde am 24.05.2024 21:25:48 gestartet.
+        
+        Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\cmTC_593b7.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_593b7.dir\\Debug\\" wird erstellt.
+          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+          Das Verzeichnis "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_593b7.dir\\Debug\\cmTC_593b7.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_593b7.dir\\Debug\\cmTC_593b7.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_593b7.dir\\Debug\\cmTC_593b7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_593b7.dir\\Debug\\\\" /Fd"cmTC_593b7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.39.33520 für x64
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_593b7.dir\\Debug\\\\" /Fd"cmTC_593b7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\src.c"
+          src.c
+        C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\src.c(1,10): error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\cmTC_593b7.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\cmTC_593b7.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        
+        Fehler beim Buildvorgang.
+        
+        "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\cmTC_593b7.vcxproj" (Standardziel) (1) ->
+        (ClCompile Ziel) -> 
+          C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\src.c(1,10): error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyn58w\\cmTC_593b7.vcxproj]
+        
+            0 Warnung(en)
+            1 Fehler
+        
+        Verstrichene Zeit 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-k8ndlr"
+      binary: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-k8ndlr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-k8ndlr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_37450.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild-Version 17.9.5+33de0b227 für .NET Framework
+        Der Buildvorgang wurde am 24.05.2024 21:25:49 gestartet.
+        
+        Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\cmTC_37450.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_37450.dir\\Debug\\" wird erstellt.
+          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+          Das Verzeichnis "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_37450.dir\\Debug\\cmTC_37450.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_37450.dir\\Debug\\cmTC_37450.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_37450.dir\\Debug\\cmTC_37450.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37450.dir\\Debug\\\\" /Fd"cmTC_37450.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\CheckFunctionExists.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.39.33520 für x64
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37450.dir\\Debug\\\\" /Fd"cmTC_37450.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\Debug\\cmTC_37450.exe" /INCREMENTAL /ILK:"cmTC_37450.dir\\Debug\\cmTC_37450.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-k8ndlr/Debug/cmTC_37450.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-k8ndlr/Debug/cmTC_37450.lib" /MACHINE:X64  /machine:x64 cmTC_37450.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht geöffnet werden. [C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\cmTC_37450.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\cmTC_37450.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        
+        Fehler beim Buildvorgang.
+        
+        "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\cmTC_37450.vcxproj" (Standardziel) (1) ->
+        (Link Ziel) -> 
+          LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht geöffnet werden. [C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k8ndlr\\cmTC_37450.vcxproj]
+        
+            0 Warnung(en)
+            1 Fehler
+        
+        Verstrichene Zeit 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-hen2v9"
+      binary: "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-hen2v9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-hen2v9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a2e90.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild-Version 17.9.5+33de0b227 für .NET Framework
+        Der Buildvorgang wurde am 24.05.2024 21:25:50 gestartet.
+        
+        Projekt "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\cmTC_a2e90.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_a2e90.dir\\Debug\\" wird erstellt.
+          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+          Das Verzeichnis "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_a2e90.dir\\Debug\\cmTC_a2e90.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_a2e90.dir\\Debug\\cmTC_a2e90.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_a2e90.dir\\Debug\\cmTC_a2e90.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2e90.dir\\Debug\\\\" /Fd"cmTC_a2e90.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\CheckFunctionExists.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.39.33520 für x64
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2e90.dir\\Debug\\\\" /Fd"cmTC_a2e90.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\Debug\\cmTC_a2e90.exe" /INCREMENTAL /ILK:"cmTC_a2e90.dir\\Debug\\cmTC_a2e90.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-hen2v9/Debug/cmTC_a2e90.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/CMakeFiles/CMakeScratch/TryCompile-hen2v9/Debug/cmTC_a2e90.lib" /MACHINE:X64  /machine:x64 cmTC_a2e90.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht geöffnet werden. [C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\cmTC_a2e90.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\cmTC_a2e90.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        
+        Fehler beim Buildvorgang.
+        
+        "C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\cmTC_a2e90.vcxproj" (Standardziel) (1) ->
+        (Link Ziel) -> 
+          LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht geöffnet werden. [C:\\Users\\julia\\OneDrive\\Desktop\\vs projects\\TicTacToe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hen2v9\\cmTC_a2e90.vcxproj]
+        
+            0 Warnung(en)
+            1 Fehler
+        
+        Verstrichene Zeit 00:00:00.52
+        
+      exitCode: 1
+...

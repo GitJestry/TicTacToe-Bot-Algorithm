@@ -1,0 +1,152 @@
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A8CB170AB36985B8B758A5424A9A76F3\GOOGLETEST-POPULATE-MKDIR.RULE
+setlocal
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -Dcfgdir=/Debug -P "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A8CB170AB36985B8B758A5424A9A76F3\GOOGLETEST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -P "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -P "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -P "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A8CB170AB36985B8B758A5424A9A76F3\GOOGLETEST-POPULATE-UPDATE.RULE
+setlocal
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A8CB170AB36985B8B758A5424A9A76F3\GOOGLETEST-POPULATE-PATCH.RULE
+setlocal
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A8CB170AB36985B8B758A5424A9A76F3\GOOGLETEST-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\build\_deps\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A8CB170AB36985B8B758A5424A9A76F3\GOOGLETEST-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\build\_deps\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A8CB170AB36985B8B758A5424A9A76F3\GOOGLETEST-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\build\_deps\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A8CB170AB36985B8B758A5424A9A76F3\GOOGLETEST-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\build\_deps\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\996DA6DB450C838F9461205888FD8170\GOOGLETEST-POPULATE-COMPLETE.RULE
+setlocal
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E make_directory "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\FB4102B1C40E6EC643ADB32FD210318D\GOOGLETEST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe "-SC:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild" "-BC:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild" --check-stamp-file "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

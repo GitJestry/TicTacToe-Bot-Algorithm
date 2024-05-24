@@ -1,0 +1,10 @@
+^C:\USERS\JULIA\ONEDRIVE\DESKTOP\VS PROJECTS\TICTACTOE\BUILD\_DEPS\GOOGLETEST-SRC\GOOGLEMOCK\CMAKELISTS.TXT
+setlocal
+C:\Users\julia\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe "-SC:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe" "-BC:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build" --check-stamp-file "C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-build/googlemock/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

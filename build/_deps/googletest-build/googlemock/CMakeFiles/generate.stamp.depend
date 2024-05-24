@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Users/julia/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake
+C:/Users/julia/OneDrive/Desktop/vs projects/TicTacToe/build/_deps/googletest-src/googlemock/CMakeLists.txt
