@@ -10,15 +10,15 @@ void TicTacToe::Board::print() {
                 } else if (field_[i][j] == Player::O) {
                     symbol = 'O';
                 }
-                std::cout << "|" << symbol << " ";
+                std::cout << "|" << symbol << "|";
             }
             std::cout << std::endl;
         }
 }
 
-void TicTacToe::Board::makeMove(int row, int col, Player player) {
-    if (row >= 0 && row < 3 && col >= 0 && col < 3 && field_[row][col] == Player::None) 
-        field_[row][col] = player;
+void TicTacToe::Board::makeMove(Move move, Player player) {
+    if (move.row >= 0 && move.row < 3 && move.col >= 0 && move.col < 3 && field_[move.row][move.col] == Player::None) 
+        field_[move.row][move.col] = player;
 }
 
 TicTacToe::Player TicTacToe::Board::checkWin() {
@@ -43,4 +43,8 @@ TicTacToe::Player TicTacToe::Board::checkWin() {
     }
 
     return Player::None;
+}
+
+TicTacToe::Board::Field TicTacToe::Board::getField() {
+    return field_;
 }
