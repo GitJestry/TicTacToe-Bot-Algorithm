@@ -4,6 +4,15 @@
     <ClCompile Include="C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\examples\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\src\board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\src\bot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\src\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\julia\OneDrive\Desktop\vs projects\TicTacToe\CMakeLists.txt" />

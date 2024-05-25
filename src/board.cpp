@@ -1,6 +1,5 @@
 #include "board.hpp"
 #include <iostream>
-#include <exception>
 
 void TicTacToe::Board::print() {
     for (int i = 0; i < 3; ++i) {
@@ -19,7 +18,7 @@ void TicTacToe::Board::print() {
 
 void TicTacToe::Board::makeMove(int row, int col, Player player) {
     if (row >= 0 && row < 3 && col >= 0 && col < 3 && field_[row][col] == Player::None) 
-            field_[row][col] = player;
+        field_[row][col] = player;
 }
 
 TicTacToe::Player TicTacToe::Board::checkWin() {
